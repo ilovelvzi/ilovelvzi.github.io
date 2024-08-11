@@ -15,9 +15,9 @@ export default defineConfig(({ command, mode }) => {
         iconDirs: [path.resolve(process.cwd(), "src/assets/icons")],
         symbolId: "icon-[dir]-[name]",
       }),
-      viteMockServe({
-        localEnabled: command === "serve",
-      }),
+      // viteMockServe({
+      //   localEnabled: command === "serve",
+      // }),
     ],
     resolve: {
       alias: {
@@ -46,6 +46,6 @@ export default defineConfig(({ command, mode }) => {
         },
       },
     },
-    base: "./",
+    publicPath: ".",
   };
 });

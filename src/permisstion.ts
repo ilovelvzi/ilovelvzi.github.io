@@ -6,6 +6,7 @@ import useStore from "./store";
 nprogress.configure({ showSpinner: false });
 // 全局前置守卫
 router.beforeEach(async (to, from, next) => {
+  console.log(from);
   nprogress.start();
   const { user } = useStore();
   if (user.token) {
@@ -35,6 +36,6 @@ router.beforeEach(async (to, from, next) => {
 });
 
 // 全局后置守卫
-router.afterEach((to, from) => {
+router.afterEach(() => {
   nprogress.done();
 });
