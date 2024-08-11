@@ -1,0 +1,1 @@
+import{_ as e,o as t,f as s}from"./index-Io1GTUiJ.js";const r={};function c(o,n){return t(),s("div",null,"spu")}const a=e(r,[["render",c],["__file","C:/Users/Administrator/Desktop/vue3_ts_template/project/src/views/product/spu/index.vue"]]);export{a as default};

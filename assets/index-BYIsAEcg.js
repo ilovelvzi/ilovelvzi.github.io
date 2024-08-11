@@ -1,0 +1,1 @@
+import{_ as e,o as s,f as t}from"./index-Io1GTUiJ.js";const r={};function o(a,c){return s(),t("div",null,"sdsadasdsadasds")}const _=e(r,[["render",o],["__file","C:/Users/Administrator/Desktop/vue3_ts_template/project/src/views/home/index.vue"]]);export{_ as default};

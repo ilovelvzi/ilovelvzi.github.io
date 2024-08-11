@@ -1,0 +1,1 @@
+import{_ as e,o as t,f as r}from"./index-Io1GTUiJ.js";const s={};function c(n,o){return t(),r("div",null,"我是大屏")}const a=e(s,[["render",c],["__file","C:/Users/Administrator/Desktop/vue3_ts_template/project/src/views/screen/index.vue"]]);export{a as default};
